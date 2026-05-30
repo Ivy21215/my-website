@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>$FAIL • The Official Fail Meme Coin</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <style>
+    body { font-family: 'Comic Sans MS', cursive, sans-serif; }
+    .fail-red { color: #ff0033; text-shadow: 0 0 20px #ff0033; }
+    .hero-bg { 
+      background: linear-gradient(135deg, #1a0000, #330000); 
+      background-image: linear-gradient(rgba(255,0,51,0.3), rgba(255,0,51,0.3));
+    }
+    .fail-float { animation: failshake 0.8s infinite alternate; }
+    @keyframes failshake {
+      from { transform: translateX(-8px) rotate(-3deg); }
+      to { transform: translateX(8px) rotate(3deg); }
+    }
+  </style>
+</head>
+<body class="bg-black text-white">
+
+  <!-- Navbar -->
+  <nav class="fixed top-0 w-full bg-black/90 backdrop-blur-md z-50 border-b-4 border-red-600">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+      <div class="flex items-center gap-3 text-4xl font-black fail-red">$FAIL</div>
+      <div class="flex gap-8 text-lg">
+        <a href="#about" class="hover:text-red-400">About</a>
+        <a href="#tokenomics" class="hover:text-red-400">Tokenomics</a>
+        <a href="#roadmap" class="hover:text-red-400">Roadmap</a>
+        <a href="#buy" class="hover:text-red-400">Buy $FAIL</a>
+      </div>
+      <a href="#buy" class="bg-red-600 hover:bg-red-700 px-8 py-3 rounded-full font-bold text-xl">BUY $FAIL</a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero-bg min-h-screen flex items-center justify-center text-center pt-20">
+    <div class="max-w-5xl mx-auto px-6">
+      <div class="text-8xl md:text-[120px] font-black fail-red fail-float mb-4">FAIL</div>
+      <p class="text-5xl md:text-7xl font-bold text-yellow-400 mb-6">THE MOST SUCCESSFUL FAILURE IN CRYPTO</p>
+      <p class="text-2xl text-gray-300 mb-10">Even our website almost failed... but here we are.</p>
+      
+      <div class="text-6xl mb-10">😭💀🚫</div>
+      
+      <a href="#buy" class="inline-block bg-white text-black text-4xl font-black px-16 py-8 rounded-3xl hover:scale-110 transition border-4 border-red-600">
+        BUY $FAIL BEFORE IT FAILS AGAIN
+      </a>
+      
+      <div class="mt-12 text-xl font-mono bg-black/60 inline-block px-6 py-3 rounded-xl">
+        Contract: <span class="text-yellow-300">TBA - Deploying Soon™</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-24 bg-zinc-950">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h2 class="text-6xl font-black fail-red mb-10">WHY $FAIL?</h2>
+      <div class="max-w-3xl mx-auto text-2xl leading-relaxed">
+        We tried to make a normal meme coin.<br>
+        We failed.<br><br>
+        So we decided to make failing our entire personality.<br>
+        <span class="text-yellow-400">And somehow... it's working.</span>
+      </div>
+      <div class="text-8xl mt-12">💀😭😂</div>
+    </div>
+  </section>
+
+  <!-- Tokenomics -->
+  <section id="tokenomics" class="py-24 bg-black">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-6xl font-black text-center fail-red mb-16">TOKENOMICS</h2>
+      <div class="grid md:grid-cols-4 gap-8">
+        <div class="bg-zinc-900 p-10 rounded-3xl border-4 border-red-600 text-center">
+          <div class="text-7xl mb-4">1B</div>
+          <div class="text-2xl">Total Supply</div>
+        </div>
+        <div class="bg-zinc-900 p-10 rounded-3xl border-4 border-red-600 text-center">
+          <div class="text-7xl mb-4">0%</div>
+          <div class="text-2xl">Tax (We failed at taxes too)</div>
+        </div>
+        <div class="bg-zinc-900 p-10 rounded-3xl border-4 border-red-600 text-center">
+          <div class="text-7xl mb-4">🔒</div>
+          <div class="text-2xl">Liquidity (Hopefully)</div>
+        </div>
+        <div class="bg-zinc-900 p-10 rounded-3xl border-4 border-red-600 text-center">
+          <div class="text-7xl mb-4">😭</div>
+          <div class="text-2xl">Community of Failures</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Buy -->
+  <section id="buy" class="py-24 bg-zinc-950 text-center">
+    <div class="max-w-4xl mx-auto px-6">
+      <h2 class="text-6xl font-black fail-red mb-12">HOW TO BUY $FAIL</h2>
+      <div class="bg-black p-12 rounded-3xl border-4 border-red-600 text-left max-w-xl mx-auto text-xl">
+        <ol class="space-y-6">
+          <li>1. Get a wallet (Phantom / Solflare)</li>
+          <li>2. Buy SOL</li>
+          <li>3. Go to Raydium or Pump.fun</li>
+          <li>4. Swap for $FAIL</li>
+          <li>5. Prepare to fail upwards</li>
+        </ol>
+      </div>
+      <button onclick="alert('🎉 Congratulations! You just failed successfully. (Demo)')" 
+              class="mt-12 bg-red-600 hover:bg-red-700 text-white text-4xl font-black px-20 py-10 rounded-3xl transition">
+        BUY $FAIL NOW
+      </button>
+    </div>
+  </section>
+
+  <footer class="py-16 bg-black border-t-4 border-red-600 text-center">
+    <p class="text-3xl mb-6">Join the $FAIL Army</p>
+    <div class="flex justify-center gap-10 text-5xl mb-8">
+      <a href="#" class="hover:text-red-400">🐦</a>
+      <a href="#" class="hover:text-red-400">📱</a>
+      <a href="#" class="hover:text-red-400">💬</a>
+    </div>
+    <p class="text-gray-500">Not financial advice. We are literally called FAIL.</p>
+  </footer>
+</body>
+</html>
